@@ -1,0 +1,19 @@
+button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+.image-container {
+    align-content: flex-start;
+    width: 30%;
+}
+.form-container {
+    align-content: flex-end;
+    width: 70%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: nowrap;
+} 
