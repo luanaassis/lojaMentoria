@@ -9,23 +9,25 @@
 </head>
 <body>
     <div class="container">
-        <div class="image-container">
-            <img src="../images/login2.png" alt="Imagem de Login">
-        </div>
-        <div class="login-container">
+        <img src="../images/login2.png" alt="Imagem de Login">
+        <div class="form-container">
             <h1>Bem-vindo</h1>
             <form id="loginForm">
-                <div>
+                <div id="form-item">
                     <label for="username">Username:</label>
+                    <br>
                     <input type="text" id="username" name="username" required>
                 </div>
-                <div>
+                <div id="form-item">
                     <label for="password">Password:</label>
+                    <br>
                     <input type="password" id="password" name="password" required>
                 </div>
-                <button type="submit">Login</button>
             </form>
-        </div>
+            <div class="button-container">
+                <button id="submitButton" type="submit">Login</button>
+            </div>
+         </div>
     </div>
 </body>
 </html>
